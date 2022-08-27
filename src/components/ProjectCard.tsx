@@ -10,12 +10,12 @@ const ProjectCard = (props: {
 	const liveLink = props.link;
 	const repoLink = props.repoLink;
 	let description = props.description;
-	if (description.length > 110) {
-		description = description.substring(0, 110) + '...';
+	if (description.length > 105) {
+		description = description.substring(0, 105) + '...';
 	}
 	return (
-		<div className="w-full rounded-lg p-5 border-2 bg-[#f8fafc]">
-			<div className="flex flex-row justify-between bg-white p-5">
+		<div className="w-[22.5rem] rounded-lg p-5 border-2 bg-[#f8fafc]">
+			<div className="flex flex-row justify-between bg-white p-5 border rounded-lg border-transparent">
 				<div className="flex flex-col">
 					<h1 className="text-xl font-bold mb-3 mx-auto">{name}</h1>
 					<p className="text-base">{description}</p>

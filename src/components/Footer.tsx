@@ -2,8 +2,8 @@ import Link from 'next/link';
 
 const Footer = () => {
 	return (
-		<footer className="bg-primary-blue p-3">
-			<div className="max-w-3xl mx-auto flex flex-row items-center justify-between text-black">
+		<footer className="bg-primary-blue py-3">
+			<div className="max-w-3xl mx-auto flex flex-col sm:flex-row items-center justify-between text-black">
 				<h1 className="text-base">
 					Built with{' '}
 					<Link href="https://nextjs.org">

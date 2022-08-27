@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 const About = () => {
 	return (
-		<section id="about" className="max-w-3xl mx-auto m-10">
+		<section id="about" className="max-w-3xl px-3 sm:px-0 mx-auto m-10">
 			<h1 className="text-2xl font-bold">Hi there! I&apos;m Ansh</h1>
 			<p className="text-lg mt-5">
 				I am a second-year Computer Science Engineering undergraduate at{' '}
