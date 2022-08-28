@@ -48,6 +48,13 @@ function MyApp({ Component, pageProps }: AppProps) {
 						href: '/site.webmanifest'
 					}
 				]}
+				additionalMetaTags={[
+					{
+						name: 'keywords',
+						content:
+							'Ansh, Goyal, Ansh Goyal, GSoC, MetaBrainz, CritiqueBrainz, BITS, BITS Pilani, Pilani, BITS Hyderabad, Hyderabad, DPS, DPS Mathura Road, Delhi Public School, Birla Institute of Technology and Science'
+					}
+				]}
 			/>
 			<Component {...pageProps} />
 		</>
