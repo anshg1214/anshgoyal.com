@@ -2,7 +2,10 @@ import Link from 'next/link';
 
 const Contact = () => {
 	return (
-		<section id="contact" className="max-w-3xl px-3 sm:px-0 mx-auto m-10 text-lg">
+		<section
+			id="contact"
+			className="max-w-3xl px-3 sm:px-0 mx-auto m-10 text-lg"
+		>
 			<h1 className="text-2xl font-bold">Contact</h1>
 			<p className="mt-4 mb-2">
 				If you have any questions, or if you just want to say hi, please

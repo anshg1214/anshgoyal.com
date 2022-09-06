@@ -5,6 +5,7 @@ import Project from '../components/Project';
 import Skills from '../components/Skills';
 import Contact from '../components/Contact';
 import Footer from '../components/Footer';
+import Analytics from '../components/Analytics';
 
 const Home: NextPage = () => {
 	return (
@@ -15,6 +16,7 @@ const Home: NextPage = () => {
 			<Skills />
 			<Contact />
 			<Footer />
+			<Analytics />
 		</>
 	);
 };
