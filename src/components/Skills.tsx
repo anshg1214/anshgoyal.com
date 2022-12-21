@@ -10,11 +10,11 @@ const Skills = () => {
 			<ul className="list-disc list-inside mt-2 text-lg">
 				<li>
 					<span className="font-extrabold">Languages: </span>{' '}
-					TypeScript • JavaScript • Python • C++
+					TypeScript • JavaScript • Python • C++ • Java
 				</li>
 				<li>
 					<span className="font-extrabold">Web Development: </span>{' '}
-					React • NextJS • Flask • ExpressJS
+					React • NextJS • Flask • ExpressJS • Spring Boot
 				</li>
 				<li>
 					<span className="font-extrabold">Misc: </span> Docker •

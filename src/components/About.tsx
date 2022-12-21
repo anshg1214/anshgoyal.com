@@ -14,7 +14,7 @@ const About = () => {
 				.
 			</p>
 			<p className="text-lg mt-2">
-				I&apos;m currently working at{' '}
+				I&apos;ve worked at{' '}
 				<Link href="https://metabrainz.org/">
 					<a className="text-blue-600">MetaBrainz</a>
 				</Link>{' '}
@@ -36,6 +36,14 @@ const About = () => {
 				{' and '}
 				<Link href="https://bookbrainz.org">
 					<a className="text-blue-600">BookBrainz</a>
+				</Link>
+				.
+			</p>
+			<br />
+			<p className="text-lg mt-2">
+				Checkout my{' '}
+				<Link href="/Ansh-Goyal-Resume.pdf">
+					<a className="text-blue-600 hover:underline">Resume</a>
 				</Link>
 				.
 			</p>
