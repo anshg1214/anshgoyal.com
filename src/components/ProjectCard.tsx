@@ -21,13 +21,23 @@ const ProjectCard = (props: {
 					<p className="text-base">{description}</p>
 					<div className="mt-2 flex gap-2">
 						<button className="bg-transparent hover:bg-blue-100 font-semibold py-1 px-4 border border-blue-500 rounded">
-							<Link href={liveLink}>
-								<a className="text-blue-600">Live</a>
+							<Link
+								href={liveLink}
+								className="text-blue-600"
+								rel="noopener noreferrer"
+								target="_blank"
+							>
+								Live
 							</Link>
 						</button>
 						<button className="bg-transparent hover:bg-blue-100 font-semibold py-1 px-4 border border-blue-500 rounded">
-							<Link href={repoLink}>
-								<a className="text-blue-600">Repo</a>
+							<Link
+								href={repoLink}
+								className="text-blue-600"
+								rel="noopener noreferrer"
+								target="_blank"
+							>
+								Repo
 							</Link>
 						</button>
 					</div>

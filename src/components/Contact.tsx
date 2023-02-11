@@ -12,26 +12,46 @@ const Contact = () => {
 				feel free to reach me at{' '}
 				<span className="font-mono select-all">ansh@anshgoyal.com</span>{' '}
 				or schedule a meeting using my{' '}
-				<Link href="https://calendly.com/anshgoyal/30min">
-					<a className="font-mono text-blue-600">Calendly</a>
+				<Link
+					href="https://calendly.com/anshgoyal/30min"
+					className="font-mono text-blue-600"
+					rel="noopener noreferrer"
+					target="_blank"
+				>
+					Calendly
 				</Link>
 				.
 			</p>
 			<p>You can also connect with me on the following platforms:</p>
 			<ul className="list-disc list-inside mt-2 font-mono">
 				<li>
-					<Link href="https://www.linkedin.com/in/anshgoyal/">
-						<a className="text-blue-600">LinkedIn</a>
+					<Link
+						href="https://www.linkedin.com/in/anshgoyal/"
+						className="text-blue-600"
+						rel="noopener noreferrer"
+						target="_blank"
+					>
+						LinkedIn
 					</Link>
 				</li>
 				<li>
-					<Link href="https://github.com/anshg1214/">
-						<a className="text-blue-600">Github</a>
+					<Link
+						href="https://github.com/anshg1214/"
+						className="text-blue-600"
+						rel="noopener noreferrer"
+						target="_blank"
+					>
+						Github
 					</Link>
 				</li>
 				<li>
-					<Link href="https://t.me/anshgoyal/">
-						<a className="text-blue-600">Telegram</a>
+					<Link
+						href="https://t.me/anshgoyal/"
+						className="text-blue-600"
+						rel="noopener noreferrer"
+						target="_blank"
+					>
+						Telegram
 					</Link>
 				</li>
 			</ul>

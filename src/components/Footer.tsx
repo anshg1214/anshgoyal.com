@@ -6,16 +6,26 @@ const Footer = () => {
 			<div className="max-w-3xl mx-auto flex flex-col sm:flex-row items-center justify-between text-black">
 				<h1 className="text-base">
 					Built with{' '}
-					<Link href="https://nextjs.org">
-						<a className="font-black">Next.js</a>
+					<Link
+						href="https://nextjs.org"
+						className="font-black"
+						rel="noopener noreferrer"
+						target="_blank"
+					>
+						Next.js
 					</Link>{' '}
 					and{' '}
-					<Link href="https://tailwindcss.com">
-						<a className="font-black">Tailwind CSS</a>
+					<Link
+						href="https://tailwindcss.com"
+						className="font-black"
+						rel="noopener noreferrer"
+						target="_blank"
+					>
+						Tailwind CSS
 					</Link>
 				</h1>
 				<h1 className="text-base">
-					&copy; Ansh Goyal 2022 &ndash; Present
+					&copy; Ansh Goyal 2023 &ndash; Present
 				</h1>
 			</div>
 		</footer>

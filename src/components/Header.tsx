@@ -10,16 +10,16 @@ const Header = () => {
 	const NavButtons = () => {
 		return (
 			<>
-				<Link href="/">
+				<Link href="/" legacyBehavior>
 					<h2 className="hover:text-secondary-blue">About</h2>
 				</Link>
-				<Link href="/#projects">
+				<Link href="/#projects" legacyBehavior>
 					<h2 className="hover:text-secondary-blue">Projects</h2>
 				</Link>
-				<Link href="/#skills">
+				<Link href="/#skills" legacyBehavior>
 					<h2 className="hover:text-secondary-blue">Skills</h2>
 				</Link>
-				<Link href="/#contact">
+				<Link href="/#contact" legacyBehavior>
 					<h2 className="hover:text-secondary-blue">Contact</h2>
 				</Link>
 			</>
@@ -29,7 +29,11 @@ const Header = () => {
 	return (
 		<header className="bg-primary-blue p-5 sticky top-0">
 			<div className="max-w-3xl px-3 sm:px-0 mx-auto flex flex-row items-center justify-between text-black">
-				<h1 className="text-3xl sm:text-2xl font-bold">Ansh Goyal</h1>
+				<Link href="/" legacyBehavior>
+					<h1 className="text-3xl sm:text-2xl font-bold">
+						Ansh Goyal
+					</h1>
+				</Link>
 				<button
 					type="button"
 					className="inline-flex items-center p-2 ml-3 text-gray-500 rounded-lg md:hidden active:ring-2 active:ring-gray-400"
