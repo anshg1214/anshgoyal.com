@@ -19,7 +19,13 @@ function MyApp({ Component, pageProps }: AppProps) {
 					site_name: 'Ansh Goyal',
 					title: 'Ansh Goyal',
 					description:
-						'Ansh Goyal is a 2nd year undergraduate student majoring in CSE at BITS Pilani.'
+						'Ansh Goyal is a 2nd year undergraduate student majoring in CSE at BITS Pilani.',
+					images: [
+						{
+							url: `${url}/images/ansh.jpg`,
+							alt: 'Ansh Goyal'
+						}
+					]
 				}}
 				twitter={{
 					handle: '@anshgoyal31',
