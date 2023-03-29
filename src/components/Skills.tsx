@@ -1,3 +1,5 @@
+import config from '../../config';
+
 const Skills = () => {
 	return (
 		<section id="skills" className="max-w-3xl px-3 sm:px-0 mx-auto m-10">
@@ -8,18 +10,19 @@ const Skills = () => {
 				familiar with the following :
 			</p>
 			<ul className="list-disc list-inside mt-2 text-lg">
-				<li>
-					<span className="font-extrabold">Languages: </span>{' '}
-					TypeScript • JavaScript • Python • C++ • Java
-				</li>
-				<li>
-					<span className="font-extrabold">Web Development: </span>{' '}
-					React • NextJS • Flask • ExpressJS • Spring Boot
-				</li>
-				<li>
-					<span className="font-extrabold">Misc: </span> Docker •
-					PostgreSQL • MongoDB • Bash
-				</li>
+				{config.skills.map((skill, index) => (
+					<li key={index}>
+						<span className="font-extrabold">
+							{skill.heading}:{' '}
+						</span>{' '}
+						{skill.items.map((item, index) => (
+							<span key={index}>
+								{item}
+								{index !== skill.items.length - 1 ? ' • ' : ''}
+							</span>
+						))}
+					</li>
+				))}
 			</ul>
 		</section>
 	);
