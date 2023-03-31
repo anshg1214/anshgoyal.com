@@ -66,7 +66,7 @@ const About = () => {
 			<p className="text-lg mt-2">
 				Checkout my{' '}
 				<Link
-					href="/Ansh-Goyal-Resume.pdf"
+					href="/resume.pdf"
 					className="text-blue-600 hover:underline"
 					rel="noopener noreferrer"
 					target="_blank"
