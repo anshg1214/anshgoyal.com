@@ -17,7 +17,7 @@ const About = () => {
 				.
 			</p>
 			<p className="text-lg mt-2">
-				I&apos;ve worked at{' '}
+				I&apos;m a GSoC 2023 Mentor for{' '}
 				<Link
 					href="https://metabrainz.org/"
 					className="text-blue-600"
@@ -26,7 +26,7 @@ const About = () => {
 				>
 					MetaBrainz
 				</Link>{' '}
-				as a Student Developer {' ('}
+				and have previously worked as a Student developer for{' '}
 				<Link
 					href="https://summerofcode.withgoogle.com/programs/2022/projects/dTPa1VpE"
 					className="text-blue-600"
@@ -35,7 +35,7 @@ const About = () => {
 				>
 					GSoC 2022
 				</Link>
-				{').'}
+				.
 			</p>
 			<p className="text-lg mt-2">
 				My recent interests include full-stack development. I am very

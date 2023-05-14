@@ -10,7 +10,7 @@ const config = {
 			name: 'Fridge To Table',
 			description:
 				'FridgetoTable is a web app that allows users to manage their food inventory, and get recipe suggestions using Edamam API as well as the list of restaurants nearby using Google Maps API. Added Google OAuth2. Used Redis for caching session and API results.',
-			link: 'https://fridgetotable.co/',
+			link: 'https://ftt.anshgoyal.com/',
 			repoLink: 'https://github.com/anshg1214/fridgetotable/'
 		}
 	],
