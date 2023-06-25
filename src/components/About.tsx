@@ -5,7 +5,7 @@ const About = () => {
 		<section id="about" className="max-w-3xl px-3 sm:px-0 mx-auto m-10">
 			<h1 className="text-2xl font-bold">Hi there! I&apos;m Ansh</h1>
 			<p className="text-lg mt-5">
-				I am a second-year Computer Science Engineering undergraduate at{' '}
+				I am a third-year Computer Science Engineering undergraduate at{' '}
 				<Link
 					href="https://www.bits-pilani.ac.in/"
 					className="text-blue-600"
