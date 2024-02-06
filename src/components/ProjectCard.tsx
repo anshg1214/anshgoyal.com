@@ -10,9 +10,11 @@ const ProjectCard = (props: {
 	const liveLink = props.link;
 	const repoLink = props.repoLink;
 	let description = props.description;
-	if (description.length > 121) {
-		description = description.substring(0, 121) + '...';
-	}
+	if (description.length > 121 && (liveLink != undefined || repoLink != undefined)) {
+		description = description.substring(0, 127) + '...';
+	} else {
+        description = description.substring(0, 161) + '...';
+    }
 	return (
 		<div className="w-[22.5rem] rounded-lg p-5 border-2 bg-[#f8fafc]">
 			<div className="flex flex-row justify-between bg-white p-5 border rounded-lg border-transparent">
