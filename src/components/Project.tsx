@@ -1,12 +1,19 @@
 import ProjectCard from './ProjectCard';
 import config from '../../config';
 
+type Project = {
+    name: string;
+    description: string;
+    link?: string;
+    repoLink?: string;
+}
+
 const Project = () => {
 	return (
 		<section id="projects" className="max-w-3xl px-3 sm:px-0 mx-auto m-10">
 			<h1 className="text-2xl font-bold">Projects</h1>
 			<div className="flex flex-wrap gap-5 mt-5">
-				{config.projects.map((project, index) => (
+				{config.projects.map((project: Project, index) => (
 					<ProjectCard
 						key={index}
 						name={project.name}
