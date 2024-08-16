@@ -11,7 +11,7 @@ function MyApp({ Component, pageProps }: AppProps) {
 			<DefaultSeo
 				defaultTitle="Ansh Goyal"
 				titleTemplate="Ansh Goyal • %s"
-				description="Ansh Goyal is a third-year Computer Science and Engineering undergraduate at Birla Institute of Technology and Science, Pilani."
+				description="Ansh Goyal is a final-year Computer Science and Engineering undergraduate at Birla Institute of Technology and Science, Pilani."
 				openGraph={{
 					type: 'website',
 					locale: 'en_IN',
@@ -19,7 +19,7 @@ function MyApp({ Component, pageProps }: AppProps) {
 					site_name: 'Ansh Goyal',
 					title: 'Ansh Goyal',
 					description:
-						'Ansh Goyal is a 3rd year undergraduate student majoring in CSE at BITS Pilani.',
+						'Ansh Goyal is a final year undergraduate student majoring in CSE at BITS Pilani.',
 					images: [
 						{
 							url: `${url}/images/ansh.jpg`,
@@ -58,7 +58,7 @@ function MyApp({ Component, pageProps }: AppProps) {
 					{
 						name: 'keywords',
 						content:
-							'Ansh, Goyal, Ansh Goyal, GSoC, MetaBrainz, CritiqueBrainz, BITS, BITS Pilani, Pilani, BITS Hyderabad, Hyderabad, DPS, DPS Mathura Road, Delhi Public School, Birla Institute of Technology and Science'
+							'Ansh, Goyal, Ansh Goyal, GSoC, MetaBrainz, ListenBrainz, BITS, BITS Pilani, Pilani, BITS Hyderabad, Hyderabad, DPS, DPS Mathura Road, Delhi Public School, Birla Institute of Technology and Science, Twilio'
 					}
 				]}
 			/>
